@@ -33,8 +33,9 @@ REM 采用新hosts
 echo 》》》 更新hosts文件：成功！
 echo 》》》 PS：当前文件夹也备份了最新的hosts！
 echo 》》》 PS：想上谷歌，只能用https://www.google.com/ncr这个地址！
-echo 》》》 PS：有问题请反馈https://github.com/xuguan/！
+echo 》》》 PS：有问题请反馈https://github.com/xuguan/!!
 )
+
 
 :end
 @pause
