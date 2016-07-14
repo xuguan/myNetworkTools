@@ -1,18 +1,18 @@
 #如何做
-将附件中的两个文件下载，放在相同文件夹下。**然后在每次要更新hosts时，请使用管理员权限运行“hostsUpdate.bat”，即可。**
+将`updateHosts.bat`以及`wget.exe`这两个文件下载后，放在相同文件夹下。在每次要更新hosts时，请使**用管理员权限运行“updateHosts.bat”**，即可。
 
 #为什么这么做，可看可不看
 
 好吧，实际上因为空间不够，没附上这两个文件，你可以找我要啊！找不到我怎么办，别急，下面告诉你怎么得到附件中的两个文件，一个自己写，写法见步骤一，一个自己下载，给出了链接，见步骤二！
 
-步骤一、复制以下代码，命名为“hostsUpdate.bat”文件，
+步骤一、复制以下代码，命名为“updateHosts.bat”文件，
 
 
 
-@echo off
-
-REM 下面是我们更新hosts文件的操作，注意hostsURL为网上的hosts文件地址，如果该url不能用请更新；
-REM 如果要开调试，把第一行变为@echo on
+    @echo off
+    
+    REM 下面是我们更新hosts文件的操作，注意hostsURL为网上的hosts文件地址，如果该url不能用请更新；
+    REM 如果要开调试，把第一行变为@echo on
 
 
     echo 》》》 本脚本自动更新hosts文件，助你不翻墙上谷歌！
@@ -50,4 +50,7 @@ REM 如果要开调试，把第一行变为@echo on
 
 步骤二、下载[windows版本wget](https://eternallybored.org/misc/wget/  )解压出“wget.exe”,放在和“hostsUpdate.bat”相同的文件夹下。
 这就完成了hosts更新功能。
-**然后在每次要更新hosts时，请使用管理员权限运行“hostsUpdate.bat”，即可。**
+
+
+下面是一个福利图片
+![太子妃升职记](http://img1.3lian.com/2015/w21/22/d/106.jpg)
