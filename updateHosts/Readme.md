@@ -1,5 +1,5 @@
 #如何做
-将`updateHosts.bat`以及`wget.exe`这两个文件下载后，放在相同文件夹下。在每次要更新hosts时，请使**用管理员权限运行“updateHosts.bat”**，即可。
+下载后将`updateHosts.bat`以及`wget.exe`这两个文件放在相同文件夹下。在每次要更新hosts时，请使**用管理员权限运行“updateHosts.bat”**，即可。
 
 #为什么这么做，可看可不看
 
